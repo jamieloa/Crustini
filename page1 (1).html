@@ -1,0 +1,40 @@
+Basic Blog Outline for GitHub Pages (HTML, CSS)
+This outline provides a foundation for a simple blog website using HTML and CSS. You can customize it further with content and styling.
+
+1. Folder Structure:
+
+Create a folder for your project (e.g., "my-blog").
+Inside this folder, create subfolders for your website files:
+css: To store your styling code (e.g., style.css).
+img (optional): To store any images used in your blog (e.g., logo, banner).
+posts (optional): To store individual blog post HTML files (e.g., post1.html, post2.html).
+2. index.html (Main Blog Page):
+
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Blog Name</title>
+  <link rel="stylesheet" href="css/style.css"> </head>
+<body>
+  <header>
+    <h1>Your Blog Name</h1>
+    </header>
+
+  <main>
+    <section class="blog-posts">
+      <h2>Latest Posts</h2>
+      <article class="post-summary">
+        <h3>Post Title 1</h3>
+        <p>A brief description of your first blog post.</p>
+        <a href="posts/post1.html">Read More</a> </article>
+      </section>
+  </main>
+
+  <footer>
+    <p>&copy; <?php echo date("Y"); ?> Your Name</p>
+  </footer>
+</body>
+</html>
